@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cabelo e Mechas | Essenza Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar scrolled" id="navbar">
+        <div class="container nav-content">
+            <a href="index.html" class="logo">
+                <span class="logo-text">ESSENZA</span>
+                <span class="logo-subtext">STUDIO</span>
+            </a>
+            
+            <nav class="nav-links">
+                <a href="index.html#inicio">Início</a>
+                <a href="index.html#sobre">A Essência</a>
+                <div class="dropdown">
+                    <a href="index.html#servicos" class="dropbtn" style="color: var(--color-gold) !important;">Serviços <i class="fas fa-chevron-down" style="font-size: 10px; margin-left: 4px;"></i></a>
+                    <div class="dropdown-content">
+                        <a href="maquiagem.html">Maquiagens</a>
+                        <a href="noivas.html">Noivas</a>
+                        <a href="mechas.html">Cabelo & Mechas</a>
+                    </div>
+                </div>
+                <a href="index.html#equipe">O Profissional</a>
+                <a href="index.html#localizacao">Localização</a>
+                <a href="https://wa.me/5517991993627" target="_blank" class="btn-nav">Agendar Horário</a>
+            </nav>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Abrir Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <div class="mobile-menu-overlay" id="mobileOverlay"></div>
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="close-menu" id="closeMenuBtn" aria-label="Fechar Menu">&times;</button>
+        <div class="mobile-menu-content">
+            <a href="index.html#inicio" class="mobile-link">Início</a>
+            <a href="index.html#sobre" class="mobile-link">A Essência</a>
+            <a href="index.html#servicos" class="mobile-link">Nossos Serviços</a>
+            <a href="maquiagem.html" class="mobile-link sub-link">- Maquiagens</a>
+            <a href="noivas.html" class="mobile-link sub-link">- Noivas</a>
+            <a href="mechas.html" class="mobile-link sub-link">- Cabelo & Mechas</a>
+            <a href="index.html#equipe" class="mobile-link">O Profissional</a>
+            <a href="index.html#localizacao" class="mobile-link">Como Chegar</a>
+        </div>
+    </div>
+
+    <!-- PADDING PARA EVITAR SOBREPOSIÇÃO DO CABEÇALHO -->
+    <section class="section-padding bg-light" style="padding-top: 150px; min-height: 100vh;">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="subtitle">Especialidade</span>
+                <h2>Cabelo, Mechas e Tratamentos</h2>
+                <div class="line"></div>
+                <p class="header-desc">Procedimentos focados na saúde extrema dos fios com técnicas avançadas.</p>
+            </div>
+
+            <div class="services-wrapper">
+                <div class="service-block">
+                    <div class="service-block-image reveal">
+                        <div class="service-slider" id="slider-hair">
+                            <div class="slides-container">
+                                <div class="slide active"><img src="imgs/mechas/mechas1.jpg" alt="Mechas 1"></div>
+                                <div class="slide"><img src="imgs/mechas/mechas2.jpg" alt="Mechas 2"></div>
+                                <div class="slide"><img src="imgs/mechas/mechas3.jpg" alt="Mechas 3"></div>
+                                <div class="slide"><img src="imgs/mechas/mechas4.jpg" alt="Mechas 4"></div>
+                                <div class="slide"><img src="imgs/mechas/mechas5.jpg" alt="Mechas 5"></div>
+                                <div class="slide"><img src="imgs/mechas/mechas6.jpg" alt="Mechas 6"></div>
+                                <div class="slide"><img src="imgs/mechas/mechas7.jpg" alt="Mechas 7"></div>
+                                <div class="slide"><img src="imgs/mechas/mechas8.jpg" alt="Mechas 8"></div>
+                                <div class="slide"><img src="imgs/mechas/mechas9.jpg" alt="Mechas 9"></div>
+                                <div class="slide"><img src="imgs/mechas/mechas10.jpg" alt="Mechas 10"></div>
+                                <div class="slide"><img src="imgs/mechas/mechas11.jpg" alt="Mechas 11"></div>
+                                <div class="slide"><img src="imgs/mechas/mechas12.jpg" alt="Mechas 12"></div>
+                                <div class="slide"><img src="imgs/mechas/mechas13.jpg" alt="Mechas 13"></div>
+                                <div class="slide"><img src="imgs/mechas/mechas14.jpg" alt="Mechas 14"></div>
+                                <div class="slide"><img src="imgs/mechas/mechas15.jpg" alt="Mechas 15"></div>
+                                <div class="slide"><img src="imgs/mechas/mechas16.jpg" alt="Mechas 16"></div>
+                                <div class="slide"><img src="imgs/mechas/mechas17.jpg" alt="Mechas 17"></div>
+                            </div>
+                            <button class="slider-btn prev-btn" aria-label="Anterior">&#10094;</button>
+                            <button class="slider-btn next-btn" aria-label="Próximo">&#10095;</button>
+                            <div class="slider-dots"></div>
+                        </div>
+                    </div>
+                    <div class="service-block-text reveal delay-100">
+                        <h3 class="category-title-left">Cabelo & Tratamentos</h3>
+                        
+                        <div class="service-item-clean">
+                            <h4>Corte Visagista</h4>
+                            <p>Cortar os cabelos vai além de tirar comprimento. Realizamos uma análise completa dos seus desejos, do formato do seu rosto e necessidades do fio para criar um resultado que realmente valorize você. Inclui lavagem e finalização.</p>
+                            <a href="https://wa.me/5517991993627?text=Olá!%20Gostaria%20de%20agendar%20um%20Corte%20Visagista." target="_blank" class="btn-wa-service">
+                                <i class="fab fa-whatsapp"></i> Agendar Corte
+                            </a>
+                        </div>
+                        
+                        <div class="service-item-clean">
+                            <h4>Pacote de Mechas</h4>
+                            <p>Nosso pacote de mechas é super completo! Inclui mechas, tonalização, esfumado (se necessário) e tratamentos capilares profundos. Prezamos muito pela saúde dos fios. (Procedimento realizado após teste de mechas e alinhamento de expectativas).</p>
+                            <a href="https://wa.me/5517991993627?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Pacote%20de%20Mechas." target="_blank" class="btn-wa-service">
+                                <i class="fab fa-whatsapp"></i> Avaliação para Mechas
+                            </a>
+                        </div>
+                        
+                        <div class="service-item-clean">
+                            <h4>Penteados & Escova</h4>
+                            <p>Preparações ideais para qualquer evento. Opções de Escova com Baby Liss, Penteados semi-presos e Penteados clássicos presos (rabos ou coques).</p>
+                            <a href="https://wa.me/5517991993627?text=Olá!%20Gostaria%20de%20agendar%20um%20Penteado%20ou%20Escova." target="_blank" class="btn-wa-service">
+                                <i class="fab fa-whatsapp"></i> Agendar Penteado
+                            </a>
+                        </div>
+                        
+                        <div class="service-item-clean">
+                            <h4>Tratamentos & Ozonioterapia</h4>
+                            <p>A melhor opção para um cabelo extremamente saudável. Tratamentos de extrema qualidade potencializados com ozonioterapia. Finalização à sua escolha. Consulte também nossos pacotes de 4 sessões!</p>
+                            <a href="https://wa.me/5517991993627?text=Olá!%20Gostaria%20de%20saber%20sobre%20os%20Tratamentos%20e%20Ozonioterapia." target="_blank" class="btn-wa-service">
+                                <i class="fab fa-whatsapp"></i> Agendar Tratamento
+                            </a>
+                        </div>
+
+                        <div style="margin-top: 30px;">
+                            <a href="index.html#servicos" class="btn-outline">Voltar para Serviços</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="contato">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-brand reveal">
+                        <a href="index.html" class="logo" style="align-items: flex-start; margin-bottom: 20px;">
+                            <span class="logo-text">ESSENZA</span>
+                            <span class="logo-subtext" style="color: #fff;">STUDIO</span>
+                        </a>
+                        <p>Elevando o padrão da beleza com arte, técnica e sofisticação em cada detalhe das nossas produções.</p>
+                    </div>
+                    <div class="footer-links reveal delay-100">
+                        <h4>Menu Rápido</h4>
+                        <ul>
+                            <li><a href="index.html#inicio">Início</a></li>
+                            <li><a href="index.html#sobre">A Essência</a></li>
+                            <li><a href="index.html#equipe">O Profissional</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links reveal delay-200">
+                        <h4>Atendimento</h4>
+                        <p style="color: #999; font-size: 14px; margin-bottom: 15px;">Dúvidas ou agendamentos?</p>
+                        <a href="https://wa.me/5517991993627" target="_blank" class="btn-wa-service" style="padding: 12px 25px; font-size: 14px;">
+                            <i class="fab fa-whatsapp"></i> Falar Conosco
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 Essenza Studio por Rodolfo Speretta. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
