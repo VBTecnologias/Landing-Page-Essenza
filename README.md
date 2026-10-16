@@ -1,56 +1,66 @@
-# Essenza Studio | Salão de Beleza de Alto Padrão ✨
+<p align="center">
+  <br>
+  <img src="imgs/assinaturarodolfo.png" alt="Essenza Studio Logo" width="250" />
+  <br>
+</p>
 
-Um website premium e responsivo desenvolvido para o **Essenza Studio**, focado em apresentar os serviços de beleza de alto padrão oferecidos pelo especialista Rodolfo Speretta. O projeto transmite luxo, sofisticação e excelência através de um design moderno e minimalista.
+<h1 align="center">Essenza Studio | Salão de Beleza de Alto Padrão ✨</h1>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+</p>
+
+<p align="center">
+  Um website premium e responsivo focado em apresentar os serviços de beleza de alto padrão oferecidos pelo especialista Rodolfo Speretta. O projeto transmite luxo, sofisticação e excelência através de um design moderno, minimalista e altamente otimizado.
+</p>
+
+<p align="center">
+  <a href="https://vbtecnologias.github.io/Landing-Page-Essenza/" target="_blank">
+    <img src="https://img.shields.io/badge/🔴_ACESSAR_SITE_AO_VIVO-%23C5A880?style=for-the-badge" alt="Preview ao Vivo">
+  </a>
+</p>
+
+<hr>
+
+## 📸 Preview do Projeto
+
+> **Nota:** Adicione prints reais do seu projeto nas pastas correspondentes e substitua os caminhos das imagens abaixo.
+
+<p align="center">
+  <img src="https://via.placeholder.com/800x450/FAF9F6/C5A880?text=Substitua+pelo+Print+do+Desktop" alt="Preview Desktop" width="100%">
+</p>
+
+<p align="center">
+  <img src="https://via.placeholder.com/250x500/FAF9F6/C5A880?text=Print+Mobile+1" alt="Preview Mobile 1" width="30%">
+  &nbsp; &nbsp; &nbsp;
+  <img src="https://via.placeholder.com/250x500/FAF9F6/C5A880?text=Print+Mobile+2" alt="Preview Mobile 2" width="30%">
+</p>
 
 ## 💻 Visão Geral do Projeto
 
-O site atua como uma vitrine digital e uma ponte direta de conversão via WhatsApp para o estúdio. Ele é composto por uma landing page principal e páginas dedicadas para cada especialidade do salão.
+O site atua como uma vitrine digital e uma ponte direta de conversão via WhatsApp para o estúdio. Construído com foco em performance e experiência do usuário (UX), ele conta com uma landing page principal e páginas dedicadas para cada especialidade do salão.
 
-### Funcionalidades Principais
+### Funcionalidades e Diferenciais
 
-* **Design Premium e Responsivo:** Layout fluido que se adapta perfeitamente a smartphones, tablets e desktops, com tema em tons de bege, branco, preto e dourado.
-* **Menu de Navegação Inteligente:** Cabeçalho fixo que muda de estilo ao rolar a página (scroll) e um menu lateral (Off-canvas) suave para dispositivos móveis.
-* **Animações de Scroll (Reveal):** Elementos surgem suavemente na tela à medida que o usuário faz a rolagem, utilizando a API `IntersectionObserver` para melhor performance.
-* **Carrosséis de Imagens Nativos:** Galerias de fotos automáticas e manuais (com botões e indicadores) construídas com JavaScript puro (Vanilla JS), sem dependência de bibliotecas externas.
-* **Integração com WhatsApp:** Botões estratégicos de "Call-to-Action" (CTA) que direcionam o cliente diretamente para o WhatsApp do salão com mensagens pré-definidas.
-* **Integração com Google Maps:** Mapa interativo embutido na seção de localização para facilitar a chegada dos clientes.
-
-## 🛠️ Tecnologias Utilizadas
-
-Este projeto foi construído utilizando tecnologias web padrão, focando em leveza e performance:
-
-* **HTML5:** Estrutura semântica e multi-páginas.
-* **CSS3:** Estilização moderna utilizando variáveis CSS (`:root`), Grid Layout, Flexbox e transições suaves.
-* **JavaScript (ES6):** Lógica de interface (menus, scroll suave, animações e sliders).
+* **📱 Design Premium e Responsivo:** Layout fluido que se adapta perfeitamente a smartphones, tablets e desktops, com tema em tons de bege, branco, preto e dourado.
+* **⚡ Performance e Otimização:** Implementação de carregamento inteligente de imagens (*Lazy Loading*), execução otimizada de scripts (*Defer*) e alvos de toque redimensionados para mobile, garantindo usabilidade fluida e alta pontuação em métricas de velocidade.
+* **🔒 Camada de Segurança:** Proteção do frontend com bloqueio de extração de imagens, restrição de acesso ao código-fonte por atalhos e implementação de cabeçalhos de segurança (CSP, X-Frame-Options) contra incorporações indevidas.
+* **🧭 Navegação Inteligente:** Cabeçalho fixo adaptativo ao scroll, menu lateral dinâmico para dispositivos móveis e animações de revelação otimizadas via `IntersectionObserver`.
+* **🖼️ Carrosséis de Imagens Nativos:** Galerias interativas construídas com JavaScript puro (Vanilla JS), sem dependência de bibliotecas externas para manter a leveza do projeto.
+* **💬 Integração com WhatsApp e Maps:** Botões estratégicos de "Call-to-Action" (CTA) para agendamentos diretos e mapa interativo embutido para facilitar a chegada dos clientes.
 
 ## 📂 Estrutura de Arquivos
 
-A estrutura do projeto está organizada da seguinte forma:
+A organização do projeto reflete uma arquitetura limpa para páginas estáticas:
 
 ```text
 /
-├── index.html          # Página principal (Início, Sobre, Vitrine de Serviços, Equipe, Contato)
-├── maquiagem.html      # Página detalhada do serviço de Maquiagem
-├── noivas.html         # Página detalhada de pacotes para Noivas
-├── mechas.html         # Página detalhada de Cabelo, Mechas e Tratamentos
-├── style.css           # Arquivo global de estilos (cores, tipografia, responsividade)
-├── script.js           # Lógica de interatividade (menu, sliders, animações)
-└── /imgs               # Diretório de imagens (maquiagem/, noivas/, mechas/, etc.)
-```
-
-## 🎨 Paleta de Cores
-
-O design utiliza as seguintes variáveis principais para manter a consistência visual:
-
-* `--color-bg`: `#FAF9F6` (Fundo Principal)
-* `--color-bg-alt`: `#F2EFE9` (Fundo Secundário)
-* `--color-text`: `#2C2C2A` (Texto Padrão)
-* `--color-gold`: `#C5A880` (Destaques e Botões)
-* `--color-dark`: `#1A1A1A` (Rodapé e Títulos Escuros)
-
-## ✍️ Autor
-
-**Rodolfo Speretta**
-Especialista em Beleza & Diretor Criativo - Essenza Studio.
-
-*© 2026 Essenza Studio por Rodolfo Speretta. Todos os direitos reservados.*
+├── index.html          # Landing page (Início, Sobre, Vitrine, Equipe, Contato)
+├── maquiagem.html      # Página de serviços: Maquiagem
+├── noivas.html         # Página de serviços: Noivas
+├── mechas.html         # Página de serviços: Cabelo & Mechas
+├── style.css           # Estilos globais (cores, tipografia, UI, responsividade)
+├── script.js           # Scripts globais (menu, animações, segurança, sliders)
+└── /imgs               # Assets estáticos de alta resolução otimizados
