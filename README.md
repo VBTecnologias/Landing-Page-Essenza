@@ -25,7 +25,7 @@
 </p>
 
 <p align="center">
-  <img src="https://via.placeholder.com/250x500/FAF9F6/C5A880?text=Print+Mobile+1" alt="Preview Mobile 1" width="30%">
+  <img src="imgs/inicio.jpeg" width="30%">
   &nbsp; &nbsp; &nbsp;
   <img src="https://via.placeholder.com/250x500/FAF9F6/C5A880?text=Print+Mobile+2" alt="Preview Mobile 2" width="30%">
 </p>
