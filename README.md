@@ -22,8 +22,6 @@ Este projeto foi construído utilizando tecnologias web padrão, focando em leve
 * **HTML5:** Estrutura semântica e multi-páginas.
 * **CSS3:** Estilização moderna utilizando variáveis CSS (`:root`), Grid Layout, Flexbox e transições suaves.
 * **JavaScript (ES6):** Lógica de interface (menus, scroll suave, animações e sliders).
-* **Fontes:** Google Fonts ([Playfair Display](https://fonts.google.com/specimen/Playfair+Display) para títulos e [Montserrat](https://fonts.google.com/specimen/Montserrat) para textos).
-* **Ícones:** FontAwesome (via CDN).
 
 ## 📂 Estrutura de Arquivos
 
@@ -39,15 +37,6 @@ A estrutura do projeto está organizada da seguinte forma:
 ├── script.js           # Lógica de interatividade (menu, sliders, animações)
 └── /imgs               # Diretório de imagens (maquiagem/, noivas/, mechas/, etc.)
 ```
-
-## 🚀 Como Executar o Projeto
-
-Como é um projeto estático (Front-end), não é necessária nenhuma instalação complexa de pacotes ou servidores.
-
-1. Faça o clone do repositório ou baixe os arquivos.
-2. Certifique-se de que todas as imagens estejam corretamente alocadas na pasta `/imgs` conforme referenciado no código.
-3. Dê um duplo clique no arquivo `index.html` para abri-lo em qualquer navegador web moderno (Chrome, Firefox, Edge, Safari).
-4. *Opcional:* Para uma melhor experiência de desenvolvimento, você pode usar a extensão "Live Server" do VS Code.
 
 ## 🎨 Paleta de Cores
 
