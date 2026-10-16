@@ -19,12 +19,9 @@
 <hr>
 
 ## 📸 Preview do Projeto
-
 <p align="center">
-  <img src="imgs/inicio.jpg" alt="Preview Desktop" width="100%">
-</p>
-
-<p align="center">
+  <img src="imgs/inicio1.jpg" width="30%">
+  &nbsp; &nbsp; &nbsp;
   <img src="imgs/Maquiagem.jpg" width="30%">
   &nbsp; &nbsp; &nbsp;
   <img src="imgs/localização.jpg" alt="Preview Mobile 2" width="30%">
