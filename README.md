@@ -1,9 +1,3 @@
-<p align="center">
-  <br>
-  <img src="imgs/assinaturarodolfo.png" alt="Essenza Studio Logo" width="250" />
-  <br>
-</p>
-
 <h1 align="center">Essenza Studio | Salão de Beleza de Alto Padrão ✨</h1>
 
 <p align="center">
