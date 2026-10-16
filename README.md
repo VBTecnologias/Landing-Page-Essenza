@@ -21,13 +21,13 @@
 ## 📸 Preview do Projeto
 
 <p align="center">
-  <img src="https://via.placeholder.com/800x450/FAF9F6/C5A880?text=Substitua+pelo+Print+do+Desktop" alt="Preview Desktop" width="100%">
+  <img src="imgs/inicio.jpg" alt="Preview Desktop" width="100%">
 </p>
 
 <p align="center">
-  <img src="imgs/inicio.jpeg" width="30%">
+  <img src="imgs/Maquiagem.jpg" width="30%">
   &nbsp; &nbsp; &nbsp;
-  <img src="https://via.placeholder.com/250x500/FAF9F6/C5A880?text=Print+Mobile+2" alt="Preview Mobile 2" width="30%">
+  <img src="imgs/localização.jpg" alt="Preview Mobile 2" width="30%">
 </p>
 
 ## 💻 Visão Geral do Projeto
