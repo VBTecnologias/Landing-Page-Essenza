@@ -20,8 +20,6 @@
 
 ## 📸 Preview do Projeto
 
-> **Nota:** Adicione prints reais do seu projeto nas pastas correspondentes e substitua os caminhos das imagens abaixo.
-
 <p align="center">
   <img src="https://via.placeholder.com/800x450/FAF9F6/C5A880?text=Substitua+pelo+Print+do+Desktop" alt="Preview Desktop" width="100%">
 </p>
