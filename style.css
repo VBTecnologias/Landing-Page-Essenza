@@ -298,7 +298,12 @@ footer { background-color: var(--color-dark); color: #fff; }
     
     .about-image img { height: 300px; }
     .about-features li { justify-content: center; }
-    .signature { align-items: center; }
+    .signature { 
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        text-align: center;
+    }
     
     .gallery-grid { grid-template-columns: 1fr; }
     .gallery-item { height: 250px; }
